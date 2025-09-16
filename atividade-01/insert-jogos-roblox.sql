@@ -3,7 +3,7 @@ CREATE TABLE jogos_roblox (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100),
     genero VARCHAR(30),
-    visitas_totais VARCHAR(10),
+    visitas_totais VARCHAR(20),
     ano_lancamento INT,
     avaliacao DECIMAL(10, 2)
 );
