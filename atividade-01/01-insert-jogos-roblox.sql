@@ -8,7 +8,7 @@ CREATE TABLE jogos_roblox (
     avaliacao DECIMAL(10, 2)
 );
 
-INSERT INTO jogos_roblox (id, nome, genero, visitas_totais, ano_lancamento, avaliacao)
+INSERT INTO jogos_roblox (nome, genero, visitas_totais, ano_lancamento, avaliacao)
 VALUES
     (1, 'Brookhaven RP', 'Roleplay', '59 bilhões', 2020, 4.7),
     (2, 'Blox Fruits', 'Aventura / RPG', '46 bilhões', 2019, 4.6),
