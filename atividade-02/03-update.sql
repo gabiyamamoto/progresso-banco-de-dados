@@ -8,3 +8,9 @@ WHERE marca = 'The ordinary'
 
 UPDATE produtos SET preco = preco - (preco * 10/100)
 WHERE estoque > 100;
+
+UPDATE produtos SET preco = preco - (preco * 30/100)
+WHERE categoria = 'perfumes';
+
+UPDATE produtos SET estoque = estoque + 25
+WHERE preco > 150.00;
