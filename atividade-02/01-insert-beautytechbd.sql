@@ -1,5 +1,6 @@
-CREATE DATABASE beautytechdb;
+CREATE DATABASE beauty_tech_db;
 
+-- SERIAL = INT AUTO INCREMENT
 CREATE TABLE produtos (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -13,7 +14,7 @@ INSERT INTO produtos (nome, marca, preco, categoria, estoque)
 VALUES
 ('Sérum antissinais', 'The ordinary', 119.00, 'skincare', 8),
 ('Gloss stick', 'Fenty Beauty', 120.00, 'maquiagem', 30),
-('MIst perfumado', 'Rare Beauty', 259.00, 'cabelo', 12),
+('Mist perfumado', 'Rare Beauty', 259.00, 'cabelo', 12),
 ('Perfume sólido', 'Glossier', 217.00, 'perfume', 43),
 ('Máscara noturna', 'The ordinary', 269.00, 'skincare', 100),
 ('Hidratante Facial com Ácido Hialurônico', 'Sallve', 89.90, 'skincare', 25),
