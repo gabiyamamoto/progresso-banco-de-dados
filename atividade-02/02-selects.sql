@@ -5,3 +5,5 @@ WHERE marca = 'The ordinary';
 
 SELECT marca, COUNT(*) FROM produtos
 GROUP BY marca;
+
+SELECT COUNT(*) AS contagem FROM produtos;
